@@ -13,3 +13,10 @@ class derivedClass : public baseClass{
             cout << "Hallo saya Function dari derived class" << endl;
         }
 };
+
+int main () {
+    derivedClass a;
+    a.perkenalan(); // Akan menghasilkan error karena baseClass adalah final class
+
+    return 0;
+}
