@@ -32,4 +32,7 @@ int main(){
     obyek->pesan(); // Memanggil fungsi pesan() dari class joko
     obyek = &b; // Memberi nilai objek dengan alamat objek dari class lia
     obyek->pesan(); // Memanggil fungsi pesan() dari class lia
+    // b.seseorang::pesan(); // Memanggil fungsi pesan() dari class seseorang 
+    // a.seseorang::pesan(); // Memanggil fungsi pesan() dari class seseorang
+    return 0;
 }
