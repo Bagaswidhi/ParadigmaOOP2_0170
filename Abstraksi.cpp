@@ -17,3 +17,7 @@ class AbstraksiKlas{
         cout << "Nilai y: " << y << endl;
     }
 };
+
+int main(){
+    AbstraksiKlas ak;
+}
