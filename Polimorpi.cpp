@@ -27,4 +27,6 @@ int main(){
     seseorang* obyek;
     joko a;
     lia b;
+
+    obyek = &a; // Memberi nilai objek dengan alamat objek dari class joko
 }
