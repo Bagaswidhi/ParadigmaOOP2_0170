@@ -29,4 +29,5 @@ int main(){
     lia b;
 
     obyek = &a; // Memberi nilai objek dengan alamat objek dari class joko
+    obyek->pesan(); // Memanggil fungsi pesan() dari class joko
 }
